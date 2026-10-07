@@ -38,7 +38,7 @@ h1{font-size:26px;line-height:1.3;margin:24px 0 8px}h2{font-size:19px;margin:28p
 ul.ds{padding-left:20px}ul.ds li{margin:4px 0}footer{border-top:1px solid var(--vien);margin-top:40px;padding:20px 0;color:var(--nhat);font-size:15px}footer a{margin-right:14px}
 .nut{display:inline-block;padding:8px 16px;border:1px solid var(--nhan);border-radius:8px;text-decoration:none}`;
 const khung = ({ ten, mo, url, than, ld = "" }) => `<!doctype html>
-<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(ten)}</title><meta name="description" content="${esc(mo)}"><link rel="canonical" href="${url}">
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(ten)}</title><meta name="google-site-verification" content="oooxwV_rr5c1GsUInLzSgfZT_0Dp_1LyYF_66iSCTfA"><meta name="description" content="${esc(mo)}"><link rel="canonical" href="${url}">
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(ten)}"><meta property="og:description" content="${esc(mo)}"><meta property="og:url" content="${url}"><meta property="og:locale" content="vi_VN">
 <style>${CSS}</style>${ld}</head><body><header><div class="k"><a href="${GOC}/">Universtar Studio · mô hình kit, Gunpla, Sentai</a></div></header><main class="k">${than}</main>
 <footer><div class="k"><a href="${LINK.yt}">YouTube</a><a href="${LINK.fb}">Facebook</a><a href="${LINK.tt}">TikTok</a><br>Universtar Studio — mở hộp, ráp và soi mô hình kit. Lời đọc bằng giọng máy.</div></footer></body></html>
